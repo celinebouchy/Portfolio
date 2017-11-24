@@ -1,0 +1,33 @@
+h1{
+	color:red;
+	font-size:72px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+table, th, td{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px solid lightblue;
+}
+
+
+body{
+	background-color:#F6E497;
+}
+
+img{
+	max-width:100%;
+}
+
+@media screen and (max-width : 810px){
+	body{
+		font-size:100%;
+	}
+}
+
+@media print{
+	body{
+		font-size:15pt;
+	}
+}
