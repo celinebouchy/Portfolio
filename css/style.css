@@ -783,6 +783,57 @@ section h3.section-subheading {
     }
 }
 
+#codeconAdobeXD {
+    animation: Animate-AdobeXD 5s;
+    -webkit-animation: Animate-AdobeXD 5s;
+    -moz-animation: Animate-AdobeXD 5s;
+    -o-animation: Animate-AdobeXD 5s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #A02405;
+}
+
+@keyframes Animate-AdobeXD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
+}
+
+@-webkit-keyframes Animate-AdobeXD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
+}
+
+@-moz-keyframes Animate-AdobeXD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
+}
+
+@-o-keyframes Animate-AdobeXD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%
+    }
+}
+
 #codeconCordova {
     animation: Animate-Cordova 5s;
     -webkit-animation: Animate-Cordova 5s;
